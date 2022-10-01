@@ -247,6 +247,9 @@
   #Header .site-logo-wrap .logo img {
     width: 60px;
   }
+    #HeroBanner .hero-content p {
+    font-size: 20px;
+  }
   /* Hero banner style */
   #HeroBanner .hero-content h1 {
     font-size: 28px;
