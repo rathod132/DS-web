@@ -180,6 +180,13 @@ ul, li {
   transform: scaleX(1);
 }
 /* mobile menu style*/
+#Header .main-menu {
+	width: 70%;
+	text-align: right;
+	float: right;
+	padding: 30px 0;
+	transition: all 0.3s ease-in-out;
+}
 #Header .mobile-menu {
 	width: 180px;
 	left: -180px;
