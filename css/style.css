@@ -317,6 +317,13 @@ ul, li {
 	display: inline-block;
 	padding: 10px 20px;
 	transition: all 0.3s ease-in-out;
+	.block-heading {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.block-heading p:last-child {
+	margin: 0;
+}
 }
 #HeroBanner .hero-content .hero-cta:hover {
 	background-color: #0098aa;
