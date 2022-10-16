@@ -199,6 +199,17 @@ ul, li {
 	-moz-transition: left .5s .5s;
 	transition: left .5s .5s;
 }
+.primary-btn:hover {
+	color: #0098aa;
+	border-color: #0098aa;
+}
+.block-heading {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.block-heading p:last-child {
+	margin: 0;
+}
 #Header .mobile-menu.visible {
 	left: 0;
 	-webkit-transition: left .5s;
