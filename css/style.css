@@ -584,6 +584,19 @@ ul, li {
   font-size: 20px;
   vertical-align: top;
 }
+#Header .mobile-menu.visible {
+	left: 0;
+	-webkit-transition: left .5s;
+	-moz-transition: left .5s;
+	transition: left .5s;
+}
+#Header .mobile-menu ul {
+	margin-top: 85px;
+}
+#Header .mobile-menu ul li {
+	list-style: none;
+	padding: 0 0 20px 40px;
+}
 #ContactUs .c-detail .c-info {
 	width: 90%;
 	display: inline-block;
