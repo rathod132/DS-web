@@ -544,6 +544,15 @@ ul, li {
 	text-align: center;
 	margin: 0 0 30px;
 }
+#Services .each-service:hover .service-icon {
+	background-color: #ffffff;
+	border: 1px solid #0098aa;
+	transition: all 0.2s ease-in-out;
+}
+#Services .each-service:hover .service-icon i {
+	color: #0098aa;
+	transition: all 0.2s ease-in-out;
+}
 #ContactUs .contact-outer-wrapper {
 	width: 100%;
 	height: auto;
