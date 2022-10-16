@@ -356,6 +356,23 @@ ul, li {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+.primary-btn {
+	font-size: 18px;
+	color: #000;
+	border: 2px solid #000;
+	padding: 7px 20px;
+}
+.primary-btn:hover {
+	color: #0098aa;
+	border-color: #0098aa;
+}
+.block-heading {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.block-heading p:last-child {
+	margin: 0;
+}
 #Services .each-service {
 	position: relative;
 	text-align: center;
