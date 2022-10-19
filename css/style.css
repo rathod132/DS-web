@@ -319,6 +319,15 @@ ul, li {
 	color: #fff;
 	margin: 0 0 30px;
 }
+#Header a.menu-trigger {
+  cursor: pointer;
+  position: relative;
+  top: 35px;
+  width: 40px;
+  height: 40px;
+  float: right;
+  transition: all 0.3s ease-in-out;
+}
 #HeroBanner .hero-content .hero-cta {
 	font-size: 22px;
 	color: #fff;
