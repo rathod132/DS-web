@@ -172,6 +172,18 @@ ul, li {
 	color: #fff;
 	padding: 15px 10px;
 }
+#MainContainer h5 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.5;
+	margin: 0
+}
+#MainContainer p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0 0 15px;
+}
 #Header .main-menu li a::before {
   content: "";
   position: absolute;
