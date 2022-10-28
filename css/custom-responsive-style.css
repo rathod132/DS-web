@@ -129,6 +129,11 @@
     display: none;
   }
 }
+blockquote {
+		border-left: solid 0.5em #eae9e9;
+		padding: 1em 0 1em 2em;
+		font-style: italic;
+	}
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) {
   /* Header style */
