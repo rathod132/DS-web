@@ -35,6 +35,15 @@ ul, li {
 	margin: 0;
 	padding: 0;
 }
+mark {
+	background-color: transparent;
+	color: inherit;
+}
+
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
 .hidden-lg-up {
 	display: none;
 }
@@ -477,6 +486,7 @@ ul, li {
 	width: 100%;
 	height: auto;
 }
+
 #Portfolio .each-portfolio .hover-cont-wrap {
 	position: absolute;
 	top: 0;
